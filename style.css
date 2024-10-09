@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(247, 178, 178);
+}
+
+.title{
+      font-size: 3rem;
+      font-weight: 800;
+      font-family:  monospace;
+      margin-top: 2rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box{
+    height: 7rem;
+    width: 7rem;
+    font-size:6rem;
+    font-weight: bold;
+    color:rgb(253, 15, 15);
+    border-radius: 1rem;
+    margin-top: 12rem;
+    border: 0.4rem solid rgb(34, 34, 34);
+}
+
+.w{
+    background-image:url("w.mp3") ;
+    background-size: cover;
+}
+
+.a{
+    background-image:url("a.mp3");
+    background-size: cover;
+}
+
+.s{
+    background-image:url("s.mp3") ;
+    background-size: cover;
+}
+
+.d{
+    background-image:url("d.mp3") ;
+    background-size: cover;
+}
+ 
+.j{
+    background-image:url("k.mp3") ;
+    background-size: cover;
+}
+
+.k{
+    background-image:url("j.mp3") ;
+    background-size: cover;
+}
+
+.l{
+    background-image:url("l.mp3") ;
+    background-size: cover;
+}
+
+ @media (max-width: 768px) {
+   .main{
+    flex-wrap: wrap;
+   }
+   .title{
+    font-size: 2rem;
+   }
+  }
+   @media (max-width: 480px) {
+    .main{
+        flex-wrap: wrap;
+    }
+    .title{
+        font-size: 2rem;
+       }
+  }
